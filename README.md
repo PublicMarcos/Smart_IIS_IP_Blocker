@@ -1,4 +1,4 @@
-﻿# IIS Limiter  
+﻿# Smart IIS IP Blocker  
 <p align="center">
   <img src="Screenshot.png">
 </p>
@@ -54,4 +54,4 @@ Die meisten DoS oder DDoS Attacken werden heutzutage von den Server-Provider sch
   
 Wenn man große Dateien im Gigabyte Bereich anbietet, dann wird man das eine oder andere Mal gesehen haben, dass es Zombie-Server gibt, die einem den Server-Traffic-Volumen, den es heutzutage in fast jeden Vertrag gibt, ohne irgend ein Sinn leer saugen, da sie nicht wie ein Normaler Webseitenbesucher die Datei ein paar Mal herunterladen, sondern gleich mehrere hundert Mal, sodass der Trafficvolumen des eigenen Servers noch vor der ersten Woche des Monats geleehrt wird. Wenn man Instanzen in der Cloud verwendet, dann kann das auch richtig ins Geld gehen, wenn man nicht aufpasst, da dort meistens pro Megabyte Netzwerktraffic bis ins Unendliche abgerechnet wird.  
   
-Für diese beiden Fälle ist dieses Programm gedacht. Es erkennt die Schnüffler, weil diese oft nach mehreren Dutzend Ordner anfragen, die nicht existieren, als auch Zombie-Server, indem der tatsächlich angefallener Traffic pro Anfrage einfach nur für ein bestimmten Zeitraum zusammengezählt werden muss.
+Für diese beiden Fälle ist dieses Programm gedacht. Wenn eine schlechte IP erkannt wurde, dann wird sie automatisch in die Einstellungen der angegebenen IIS Webseiten eingetragen, damit sie kein Schaden mehr anrichten kann.
