@@ -20,6 +20,9 @@
 Format=W3C
 Codierung=UTF-8
 Protokolldateirollover/Zeitplan=Täglich
+###Einschränkungen für IP-Adressen und Domänen
+Featureeinstellungen bearbeiten/Aktionstyp verweigern=Verboten
+Das Feature "Einschränkungen für IP-Adressen und Domänen"  muss installiert sein.
 
 ##Configeinträge (Beispiel)
 TriggerLevel=2
